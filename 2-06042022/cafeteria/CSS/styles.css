@@ -17,9 +17,9 @@ header {
   /*aplicar imagem de fundo ao cabeçalho*/
   background-image: url("../img/cafeteria5.jpg");
   /*ajustar o tamanho da imagem de fundo*/
-  background-size: 100% cover;
+  background-size: 100%;
   /*alterar a posição vertical da imagem*/
-  background-position-y: -410px;
+  background-position-y: -600px;
 
   padding-top: 100px;
   text-align: center;
@@ -38,7 +38,7 @@ h1 {
 
 /* Vamos fazer a formatação da barra de navegação*/
 nav {
-  background-color: rgb(132, 155, 154);
+  background-color: rgb(6, 8, 8);
   padding: 10px;
   text-align: center;
 }
@@ -49,8 +49,52 @@ nav ul li {
   margin: 5px;
 }
 nav ul li a {
-  color: blanchedalmond;
+  color: rgb(236, 196, 155);
   font-family: arial;
   /*tirar o sublinhado*/
   text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+footer {
+  background-color: black;
+  /*permitir que o rodapé fique com o seu conteúdo flexivel*/
+  display: flex;
+  /*dispor o conteúdo em linha*/
+  flex-direction: row;
+  /*adustar o conteúdo ao centro com justify-content e aligh-itens*/
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+/*footer div {
+  border: 1px solid burlywood;
+  margin: 10px;
+}*/
+#endereco {
+  font-family: Arial;
+  font-size: 12pt;
+  color: bisque;
+  width: 300px;
+}
+
+#redes {
+  position: absolute;
+  right: 50px;
+}
+#redes ul {
+  /*retirar as bolinhas de marcação*/
+  list-style: none;
+}
+
+/*vamos dispor as imagens das redes em linha com display inline-block*/
+#redes ul li {
+  display: inline-block;
+  margin: 10px;
+}
+#redes ul li a img {
+  width: 40px;
+  height: 40px;
 }
