@@ -172,3 +172,77 @@ main p {
   margin-left: 20px;
   margin-right: 20px;
 }
+/*  */
+/* inicio dos estilos para o cardápio */
+
+/* Inicio da estrutura dos cafés */
+h2 {
+  padding-left: 100px;
+}
+h3 {
+  /* converter as letras para maiúsculoas */
+  text-transform: uppercase; /*letras maiúsculoas*/
+  font-size: 20pt;
+  font-family: verdana;
+  color: rgb(92, 54, 40);
+  margin: 30px;
+  padding-left: 110px;
+}
+
+#linha {
+  display: flex;
+  flex-direction: row;
+  /* realizar a quebra linha para os demais produtos que forem adicionados */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#linha #produto {
+  width: 40%;
+  margin: 10px;
+  /* determinar que o produto é flexivel */
+
+  display: flex;
+  flex-direction: row;
+}
+
+#linha #produto #imgprod,
+#linha #produto #descricao {
+  width: 48%;
+  margin: 10px;
+  transition: ease 0.5s;
+}
+
+#linha #produto #imgprod img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+
+h4 {
+  font-family: verdana;
+  font-size: 20pt;
+  margin: 10px;
+}
+
+h5 {
+  font-family: "lucida Sans";
+  font-weight: lighter;
+  margin: 10px;
+}
+
+h6 {
+  font-family: "lucida Sans";
+  color: darkred;
+  font-size: 12pt;
+  margin: 50px;
+}
+
+#linha #produto:hover {
+  background-color: rgb(150, 142, 142);
+  color: white;
+  cursor: pointer;
+}
+
+/* fim dos estilos para cardápio */
