@@ -261,3 +261,54 @@ h6 {
 }
 
 /* =====================fim estilo mapa=========================== */
+
+/* =================================inicio do contato======================== */
+
+main form {
+  width: 40%;
+  /* border: 1px solid rgb(70, 66, 66); */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  box-shadow: 5px 5px 10px rgb(24, 23, 23);
+  background-color: rgb(216, 215, 215);
+}
+
+main form input,
+main form select,
+main form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  font-family: verdana;
+  border: 0px;
+  border-bottom: 1px solid silver;
+  outline: 0px;
+}
+
+main form input[type="tel"],
+main form select {
+  width: 49.6%;
+}
+main form textarea {
+  height: 200px;
+}
+
+main form input[type="submit"] {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  background-color: gray;
+  color: white;
+  border: 0px;
+  transition: ease 0.05s;
+}
+
+main form input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: rgb(155, 154, 155);
+  color: black;
+}
+
+/* =================================fim do contato============================= */
