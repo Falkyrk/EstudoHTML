@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Cafeteria,Café,Bolinho">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Cafeteria</title>
+</head>
+<body>
+   <header>
+    <a id="abrir" href="#" onclick="abrir()">&#9776;</a>
+       <h1>Cafeteria Mister Lanches</h1>
+   </header>
+   
+    
+   <nav>
+    <a id="fechar" href="#" onclick="fechar()">&times;</a>
+       <ul>
+           <li><a href="index.html">home</a></li>
+           <li><a href="historia.html">história</a></li>
+           <li><a href="cardapio.html">cardapio</a></li>
+           <li><a href="contato.html">contato</a></li>
+           <li><a href="localizacao.html">localização</a></li>
+       </ul>
+   </nav> 
+   <main>
+       <h2>Seja bem vindo ao Mister Lanches</h2>
+       <p><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident excepturi possimus odit molestiae in fugiat doloremque molestias blanditiis ea nulla consequuntur quod illo commodi iste, earum id alias sint rerum!</span><span>Voluptatem, quaerat. Alias corrupti fugiat eum facere cupiditate beatae, iste libero doloribus et amet ipsa officiis excepturi quos. Iusto hic beatae dolore cum, nam repudiandae a quidem animi fugit odit.</span><span>Eligendi corporis animi nisi quibusdam hic harum, sed iste omnis minus magni voluptates at nihil! Vitae tempore error, quasi, nihil voluptatem natus delectus eveniet officia odio veniam ullam, modi nemo.</span></p>
+       <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse similique, et, maiores voluptate molestiae facilis pariatur, optio animi ex provident consectetur asperiores sed. Reiciendis autem non neque unde corporis libero.</span><span>Nostrum odio obcaecati repellendus tempore eaque iusto vitae commodi quae dolores, minus magnam error soluta officia eum incidunt adipisci, exercitationem impedit in molestiae hic sequi. Sapiente quod architecto ratione nihil.</span><span>Commodi rem nobis natus porro sed rerum, debitis ducimus? Illum ratione, velit natus soluta labore aut officia blanditiis aperiam esse accusamus sunt pariatur? Laboriosam quidem et perferendis odio aspernatur quibusdam!</span></p>
+       <div id="imghome">
+           <img src="img/tomarcafe2.jpg" alt="Tomando café">
+           <img src="img/tomarcafe3.jpg" alt="Cliente tomando café">
+        </div>
+   </main>
+   <footer>
+       <div id="endereco">
+        Estr. do Cantagalo, 2 <br> 
+        Rio de Janeiro - RJ <br>
+        CEP: 22071-060 <br>  
+        Telefone: 021 96918-9921 <br> 
+       </div>
+       <div id="redes">
+         <ul>
+             <li><a href="http://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="Acesse nosso facebook"></a></li>
+             <li><a href="http://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="Acesse nosso instagram"></a></li>
+             <li><a href="http://youtube.com" target="_blank"><img src="img/youtube.png" alt="Acesse nosso youtube"></a></li>
+         </ul>  
+       </div>
+   </footer>
+   <script>
+function abrir(){
+    document.getElementsByTagName("nav")[0].style.left="0px";
+}
+
+function fechar(){
+    document.getElementsByTagName("nav")[0].style.left="-200px";
+}
+
+
+   </script>
+
+</body>
+</html>
